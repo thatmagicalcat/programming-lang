@@ -1,0 +1,6 @@
+fn say10times(text)
+  let c $int 2
+  for (c 0, c < 10, c++) {
+    println(text)
+  }
+end

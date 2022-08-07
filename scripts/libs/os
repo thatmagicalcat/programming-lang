@@ -1,0 +1,7 @@
+fn print_time()
+  exec("date")
+end
+
+fn exec(command)
+  !(system[command];)
+end
